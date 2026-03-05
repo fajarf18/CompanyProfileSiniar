@@ -96,12 +96,20 @@ const Modal = ({ isOpen, onClose, product }) => {
 
                     {/* CTA Buttons */}
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button className="btn-primary flex-1 text-center">
-                            Beli Sekarang
-                        </button>
-                        <button className="btn-secondary flex-1 text-center">
-                            Lihat Demo
-                        </button>
+                        {product.buyLink ? (
+                            <a
+                                href={product.buyLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn-primary flex-1 text-center"
+                            >
+                                Beli Sekarang
+                            </a>
+                        ) : (
+                            <button className="btn-primary flex-1 text-center">
+                                Beli Sekarang
+                            </button>
+                        )}
                     </div>
                 </div>
             </div>

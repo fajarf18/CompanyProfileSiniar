@@ -16,108 +16,24 @@ const DigitalProducts = () => {
     const products = [
         {
             id: 1,
-            title: 'Platform E-Learning',
-            category: 'Web App',
+            title: 'Modul Pembelajaran Bisnis Digital',
+            category: 'E-Book',
             icon: (
                 <svg className="w-16 h-16 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
             ),
-            price: 'Rp 2.500.000',
+            price: 'Rp.30.000',
             description:
-                'Platform pembelajaran online lengkap dengan fitur video streaming, quiz interaktif, sertifikat digital, dan sistem manajemen kursus yang mudah digunakan.',
+                'Modul ini dirancang untuk membantu memahami konsep, strategi, serta inovasi dalam dunia bisnis digital yang terus berkembang. Materi disusun secara sistematis dan mudah dipahami sehingga cocok digunakan sebagai bahan pembelajaran maupun referensi. Modul ini sangat bermanfaat bagi mahasiswa, pelajar, maupun siapa saja yang ingin mempelajari bagaimana bisnis berkembang di era teknologi digital.\n\n📖 Isi Pembahasan\n• Konsep dasar bisnis digital\n• Strategi pengembangan bisnis digital\n• Inovasi dalam dunia bisnis digital\n• Pemanfaatan teknologi dalam bisnis\n• Peluang dan tantangan bisnis di era digital\n\n📌 Spesifikasi Produk\nJenis: Modul / Buku Pembelajaran\nKategori: Pendidikan / Bisnis\nTopik: Bisnis Digital & Strategi Digital',
             features: [
-                'Video streaming HD dengan kualitas tinggi',
-                'Quiz dan ujian interaktif',
-                'Sertifikat digital otomatis',
-                'Dashboard analytics lengkap',
-                'Multi-user role (admin, instruktur, siswa)',
-                'Forum diskusi dan chat real-time',
+                'Materi lengkap dan mudah dipahami',
+                'Membahas strategi bisnis di era digital',
+                'Cocok untuk mahasiswa dan pembelajaran',
+                'Dapat digunakan sebagai referensi akademik',
+                'Relevan dengan perkembangan teknologi bisnis',
             ],
-        },
-        {
-            id: 2,
-            title: 'Template Website Bisnis',
-            category: 'Template',
-            icon: (
-                <svg className="w-16 h-16 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-            ),
-            price: 'Rp 500.000',
-            description:
-                'Template website bisnis modern dan responsive dengan berbagai layout halaman. Cocok untuk company profile, portfolio, dan landing page produk.',
-            features: [
-                '10+ halaman template siap pakai',
-                'Responsive design untuk semua device',
-                'Optimasi SEO bawaan',
-                'Easy customization',
-                'Dokumentasi lengkap',
-                'Free updates selamanya',
-            ],
-        },
-        {
-            id: 3,
-            title: 'Mobile App Starter Kit',
-            category: 'Mobile',
-            icon: (
-                <svg className="w-16 h-16 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-            ),
-            price: 'Rp 3.000.000',
-            description:
-                'Starter kit lengkap untuk pengembangan aplikasi mobile dengan React Native. Sudah include authentication, database setup, dan UI components.',
-            features: [
-                'Authentication & authorization',
-                'Firebase integration',
-                'Pre-built UI components',
-                'Push notification ready',
-                'Offline storage support',
-                'Source code & dokumentasi',
-            ],
-        },
-        {
-            id: 4,
-            title: 'Dashboard Analytics Pro',
-            category: 'Web App',
-            icon: (
-                <svg className="w-16 h-16 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-            ),
-            price: 'Rp 1.800.000',
-            description:
-                'Dashboard analytics professional dengan berbagai chart dan grafik interaktif. Perfect untuk monitoring bisnis dan data visualization.',
-            features: [
-                '20+ jenis chart dan grafik',
-                'Real-time data update',
-                'Export data (PDF, Excel)',
-                'Custom reporting tools',
-                'API integration ready',
-                'Dark/Light mode',
-            ],
-        },
-        {
-            id: 5,
-            title: 'E-Commerce Starter',
-            category: 'Web App',
-            icon: (
-                <svg className="w-16 h-16 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                </svg>
-            ),
-            price: 'Rp 4.000.000',
-            description:
-                'Platform e-commerce lengkap dengan shopping cart, payment gateway, inventory management, dan admin panel yang powerful.',
-            features: [
-                'Shopping cart & checkout system',
-                'Multiple payment gateway',
-                'Inventory management',
-                'Order tracking system',
-                'Customer management',
-                'Admin dashboard lengkap',
-            ],
+            buyLink: 'https://forms.gle/fZq4UiKidtuy1vJX9',
         },
     ];
 
