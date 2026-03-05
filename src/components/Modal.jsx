@@ -69,6 +69,56 @@ const Modal = ({ isOpen, onClose, product }) => {
                         <p className="text-gray-400 leading-relaxed">{product.description}</p>
                     </div>
 
+                    {/* Isi Pembahasan */}
+                    {product.pembahasan && (
+                        <div className="mb-6">
+                            <h3 className="text-xl font-bold text-white mb-3">📖 Isi Pembahasan</h3>
+                            <ul className="space-y-2">
+                                {product.pembahasan.map((item, index) => (
+                                    <li key={index} className="flex items-start text-gray-400">
+                                        <svg
+                                            className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0"
+                                            fill="none"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth="2"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                        >
+                                            <path d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+
+                    {/* Spesifikasi Produk */}
+                    {product.spesifikasi && (
+                        <div className="mb-6">
+                            <h3 className="text-xl font-bold text-white mb-3">📌 Spesifikasi Produk</h3>
+                            <ul className="space-y-2">
+                                {product.spesifikasi.map((item, index) => (
+                                    <li key={index} className="flex items-start text-gray-400">
+                                        <svg
+                                            className="w-5 h-5 text-primary mr-2 mt-1 flex-shrink-0"
+                                            fill="none"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth="2"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                        >
+                                            <path d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+
                     {/* Features */}
                     {product.features && (
                         <div className="mb-6">

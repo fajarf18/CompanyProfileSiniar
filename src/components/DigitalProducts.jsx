@@ -25,7 +25,19 @@ const DigitalProducts = () => {
             ),
             price: 'Rp.30.000',
             description:
-                'Modul ini dirancang untuk membantu memahami konsep, strategi, serta inovasi dalam dunia bisnis digital yang terus berkembang. Materi disusun secara sistematis dan mudah dipahami sehingga cocok digunakan sebagai bahan pembelajaran maupun referensi. Modul ini sangat bermanfaat bagi mahasiswa, pelajar, maupun siapa saja yang ingin mempelajari bagaimana bisnis berkembang di era teknologi digital.\n\n📖 Isi Pembahasan\n• Konsep dasar bisnis digital\n• Strategi pengembangan bisnis digital\n• Inovasi dalam dunia bisnis digital\n• Pemanfaatan teknologi dalam bisnis\n• Peluang dan tantangan bisnis di era digital\n\n📌 Spesifikasi Produk\nJenis: Modul / Buku Pembelajaran\nKategori: Pendidikan / Bisnis\nTopik: Bisnis Digital & Strategi Digital',
+                'Modul ini dirancang untuk membantu memahami konsep, strategi, serta inovasi dalam dunia bisnis digital yang terus berkembang. Materi disusun secara sistematis dan mudah dipahami sehingga cocok digunakan sebagai bahan pembelajaran maupun referensi.',
+            pembahasan: [
+                'Konsep dasar bisnis digital',
+                'Strategi pengembangan bisnis digital',
+                'Inovasi dalam dunia bisnis digital',
+                'Pemanfaatan teknologi dalam bisnis',
+                'Peluang dan tantangan bisnis di era digital',
+            ],
+            spesifikasi: [
+                'Jenis: Modul / Buku Pembelajaran',
+                'Kategori: Pendidikan / Bisnis',
+                'Topik: Bisnis Digital & Strategi Digital',
+            ],
             features: [
                 'Materi lengkap dan mudah dipahami',
                 'Membahas strategi bisnis di era digital',
