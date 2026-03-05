@@ -45,7 +45,7 @@ const DigitalProducts = () => {
                 'Dapat digunakan sebagai referensi akademik',
                 'Relevan dengan perkembangan teknologi bisnis',
             ],
-            buyLink: 'https://forms.gle/fZq4UiKidtuy1vJX9',
+            buyLink: 'https://forms.gle/65JX1CqHsTST7M2S8',
         },
     ];
 
